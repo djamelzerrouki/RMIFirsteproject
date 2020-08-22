@@ -5,6 +5,7 @@ import java.rmi.RemoteException;
 import java.util.Date;
 public interface BanQueInterface extends Remote
 {
+//MyApp 
   public  Date date () throws RemoteException;
   public  double convert (double d1) throws RemoteException;
   
